@@ -655,6 +655,12 @@
             transform: translateY(30px);
             transition: opacity 0.6s ease, transform 0.6s ease;
         }
+        .footer-logo-img {
+    height: 40px; /* ارتفاع مورد نظر */
+    width: auto; /* عرض به نسبت حفظ شود */
+    max-width: 150px; /* حداکثر عرض */
+    object-fit: contain; /* تصویر به نسبت حفظ شود */
+}
         
         .footer-container {
             display: grid;
@@ -1461,9 +1467,8 @@
             <div class="footer-container">
                 <div class="footer-about">
                     <div class="footer-logo">
-                        <i class="fas fa-book-open"></i>
-                        یابش
-                    </div>
+    <img src="images/2025 Header.png" alt="لوگوی یابش" class="footer-logo-img">
+</div>
                     <p>پلتفرم تخصصی کتاب و منابع آموزشی برای دانشجویان، پژوهشگران و علاقه‌مندان به یادگیری. دسترسی به هزاران منبع معتبر در حوزه‌های مختلف علمی.</p>
                     
                     <div class="footer-social">
@@ -1617,5 +1622,6 @@
     </script>
 </body>
 </html>
+
 
 
